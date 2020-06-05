@@ -1,1 +1,1 @@
-grid-template-init-project
+GRID-TEMPLATE-INIT-PROJECT
