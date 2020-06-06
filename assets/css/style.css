@@ -911,7 +911,7 @@ input:focus {
   background-color: rgba(255, 255, 255, 0.05);
   border: 2px solid rgba(255, 255, 255, 0);
   border-bottom-color: rgba(255, 255, 255, 0.25);
-  color: #fff;
+  font-family: sans-serif;
   letter-spacing: 0.15em;
   font-size: 1.125rem;
   -webkit-transition: background-color 0.5s, border-color 0.5s;
@@ -923,6 +923,26 @@ input:focus {
   background-color: rgba(255, 255, 255, 0.15);
   border: 2px solid rgba(255, 255, 255, 0.25);
   border-bottom-color: #fff;
+}
+
+.form-item__input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.form-item__input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.form-item__input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.form-item__input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.form-item__input::placeholder {
+  color: rgba(255, 255, 255, 0.25);
 }
 
 .btn-subscribe {

@@ -36,7 +36,7 @@
         background-color: rgba($color-light,0.05);
         border: 2px solid rgba($color-light, 0);
         border-bottom-color: rgba($color-light, 0.25);
-        color: $color-light;
+        font-family: sans-serif;
         letter-spacing: 0.15em;
         font-size: 1.125rem;
         transition: background-color 0.5s, border-color 0.5s;
@@ -45,6 +45,10 @@
             background-color: rgba($color-light,0.15);
             border: 2px solid rgba($color-light, 0.25);
             border-bottom-color: $color-light;
+        }
+        
+        &::placeholder {
+            color: rgba($color-light,0.25);
         }
     } 
 }
